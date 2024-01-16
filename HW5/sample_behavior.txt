@@ -1,0 +1,127 @@
+Sample behavior 1
+  - tie
+
+Welcome to the game!
+Enter a number between 3 - 10 to be length of the word you are going to guess:
+3
+Filtering the words with given length 3. Please standby ...
+-----------------------------------------------
+Computer's turn.
+Computer took "u" from DISCARD PILE
+Computer's hand cards are: [t, u, e]
+-----------------------------------------------
+Your turn. Your hand cards are: [f, m, d]
+Pick "k" from DISCARD PILE or reveal the letter from MAIN PILE
+Reply "D" or "M" to respond:
+m
+The letter from MAIN PILE is "o"
+Do you want to accept this letter? Type "y/yes" to accept, "n/no" to discard.
+y
+Input the index of the letter to be replaced, e.g. "1":
+0
+You replaced "f" with "o"
+Your hand cards are: [o, m, d]
+-----------------------------------------------
+Tie!
+Your word is omd
+Computer's word is tue
+
+
+Sample behavior 2
+  - when input an index which is greater than the valid range
+  - when input an index that is an invalid string
+  - input with leading/trailing spaces
+  - user wins
+
+
+Welcome to the game!
+Enter a number between 3 - 10 to be length of the word you are going to guess:
+4
+Filtering the words with given length 4. Please standby ...
+-----------------------------------------------
+Computer's turn.
+Computer took "n" from DISCARD PILE
+Computer's hand cards are: [h, r, n, n]
+-----------------------------------------------
+Your turn. Your hand cards are: [d, e, t, f]
+Pick "u" from DISCARD PILE or reveal the letter from MAIN PILE
+Reply "D" or "M" to respond:
+    D
+Input the index of the letter to be replaced, e.g. "1":
+100
+Input the index of the letter to be replaced, e.g. "1":
+s
+Please enter a valid integer
+Input the index of the letter to be replaced, e.g. "1":
+3
+You replaced "f" with "u"
+Your hand cards are: [d, e, t, u]
+-----------------------------------------------
+Computer's turn.
+Computer took "f" from DISCARD PILE
+Computer's hand cards are: [f, r, n, n]
+-----------------------------------------------
+Your turn. Your hand cards are: [d, e, t, u]
+Pick "h" from DISCARD PILE or reveal the letter from MAIN PILE
+Reply "D" or "M" to respond:
+M
+The letter from MAIN PILE is "d"
+Do you want to accept this letter? Type "y/yes" to accept, "n/no" to discard.
+t
+Please input a valid response
+The letter from MAIN PILE is "d"
+Do you want to accept this letter? Type "y/yes" to accept, "n/no" to discard.
+no
+You discarded "d" from MAIN PILE
+Your hand cards are: [d, e, t, u]
+-----------------------------------------------
+Computer's turn.
+Computer took "d" from DISCARD PILE
+Computer's hand cards are: [f, r, d, n]
+-----------------------------------------------
+Your turn. Your hand cards are: [d, e, t, u]
+Pick "n" from DISCARD PILE or reveal the letter from MAIN PILE
+Reply "D" or "M" to respond:
+m
+The letter from MAIN PILE is "p"
+Do you want to accept this letter? Type "y/yes" to accept, "n/no" to discard.
+yes
+Input the index of the letter to be replaced, e.g. "1":
+2
+You replaced "t" with "p"
+Your hand cards are: [d, e, p, u]
+-----------------------------------------------
+Computer's turn.
+Computer took "t" from DISCARD PILE
+Computer's hand cards are: [f, r, d, t]
+-----------------------------------------------
+Your turn. Your hand cards are: [d, e, p, u]
+Pick "n" from DISCARD PILE or reveal the letter from MAIN PILE
+Reply "D" or "M" to respond:
+m
+The letter from MAIN PILE is "y"
+Do you want to accept this letter? Type "y/yes" to accept, "n/no" to discard.
+y
+Input the index of the letter to be replaced, e.g. "1":
+3
+You replaced "u" with "y"
+Your hand cards are: [d, e, p, y]
+-----------------------------------------------
+Computer's turn.
+Computer took "u" from DISCARD PILE
+Computer's hand cards are: [f, r, d, u]
+-----------------------------------------------
+Your turn. Your hand cards are: [d, e, p, y]
+Pick "t" from DISCARD PILE or reveal the letter from MAIN PILE
+Reply "D" or "M" to respond:
+m
+The letter from MAIN PILE is "w"
+Do you want to accept this letter? Type "y/yes" to accept, "n/no" to discard.
+y
+Input the index of the letter to be replaced, e.g. "1":
+2
+You replaced "p" with "w"
+Your hand cards are: [d, e, w, y]
+-----------------------------------------------
+Your word is dewy
+You win!
